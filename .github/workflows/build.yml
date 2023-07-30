@@ -3,7 +3,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     container:
-      image: node:17.7.0
+      image: node:17.6.0
     steps:
       - run: node --version
       - run: npm --version
